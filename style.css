@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    color:maroon;
+    overflow-x:hidden;
+}
+.container{
+    max-width:1100px;
+    margin: auto;
+}
+.primary-text{
+color: maroon;
+}
+.bg-skills{
+    background: lightslategrey;
+    color: orange;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background: orange;
+    color: white;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1.0;
+    border-bottom: 3px solid maroon;
+}
+
+.nav-bar ul{
+display: flex;
+align-items: center;
+list-style: none;
+text-decoration: none;
+float: right;
+}
+.nav-bar h2 a{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+    padding: 1.0rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: all ease  0.5s;
+    cursor: pointer;
+}
+.nav-bar li a:hover{
+background-color: maroon;
+}
+.show-case{
+    background: orange; no-repeat center center/cover;
+    height: 92vh;
+}
+.showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(235, 177, 19, 0.6);
+    color: #fff;
+}
+.showcase-content h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.showcase-content .btn{
+    font-size: 1.6rem;
+    padding: 1rem 10rem;
+}
+.showcase-content .btn:hover{
+    background: maroon;
+    color: #fff;
+    transition: all ease 0.5s;
+}
+.btn{
+    color: maroon;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid rgb(61, 7, 7);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.about{
+    padding: 5rem 0;
+
+}
+.about h2,#skills h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.about h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.about h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.about p.p-1 {
+    margin-bottom: 1rem;
+}
+.about .about-content{
+    display: flex;
+}
+.about .about-text,
+.about .about-img{
+    flex: 1;
+}
+.about .about-text{
+    text-align: justify;
+}
+
+.about .about-img{
+    display: block;
+    margin-left: auto;
+    width: 75%;
+    border-radius: 40%;
+    margin-top: 60px;
+}
+#skills{
+    padding: 5rem 0;
+}
+#skills h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+#skills .boxes{
+    display: flex;
+
+}
+#skills .box{
+    background: white;
+    flex: 1;
+    padding:3rem;
+    margin: 0 3rem;
+    border-radius: 11px;
+    box-shadow: 2px 2px 5px #d1d1d1;
+    font-size: 1.2rem;
+}
+.bg-d{
+    background: orange;
+    color: white;
+}
+footer{
+padding: 2.5rem;
+}
+footer p{
+    text-align: center;
+    color: maroon;
+}
